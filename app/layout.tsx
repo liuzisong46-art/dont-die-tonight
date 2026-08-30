@@ -1,0 +1,1 @@
+import type { Metadata } from 'next'; import './globals.css'; export const metadata:Metadata={title:'别死在今晚',description:'凌晨 1:47，你在一个陌生城市。'}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}

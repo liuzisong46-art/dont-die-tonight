@@ -1,0 +1,1 @@
+export default function ChoiceButton({children,onClick}:{children:React.ReactNode;onClick:()=>void}){return <button onClick={onClick} className="w-full rounded-2xl border border-white/15 bg-white/[.07] px-5 py-5 text-left text-lg font-medium transition active:scale-[.98] active:bg-white/15 hover:bg-white/10">{children}<span className="float-right opacity-40">›</span></button>}
